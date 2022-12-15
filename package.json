@@ -2,8 +2,12 @@
   "name": "ams-backend",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node" : "14.x"
+  },
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node index.js",
+    "build": "npm run build"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
